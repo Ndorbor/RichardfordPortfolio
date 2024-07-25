@@ -1,0 +1,53 @@
+/* root image styling */
+#idkpehe{width: 300px; height: 300px;
+    border-radius: 55%; border: 5px black solid;
+   }
+   /* a tag styling */
+   .atag{ color: blue;}
+
+   body{ color: green; margin: 0px; padding: 0px;}
+div{background-color: black; color: white; margin: 40px;}
+hr{border: 5px black solid;}
+
+
+   /* Responsive Styles */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Mobile styles */
+    body {
+        padding: 10px;
+    }
+    .parent {
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles */
+    body {
+        padding: 20px;
+    }
+    .parent {
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Laptop styles */
+    body {
+        padding: 30px;
+    }
+    .parent {
+        margin: 0 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Desktop styles */
+    body {
+        padding: 40px;
+    }
+    .parent {
+        margin: 0 40px;
+    }
+}
